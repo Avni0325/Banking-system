@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+  <table>
+    <tr>
+      <td><div class="head">Transferred From:</div></td>
+      <td><div class="head">Amount Transferred:</div></td>
+      <td><div class="head">Transferred To:</div></td>
+    </tr>
+
+    <% posts.forEach(function(post){ %>
+    <tr>
+      <td><div class="rec"><%= post.from %></div></td>
+        <td><div class="rec"><%= post.amount %></div></td>
+        <td><div class="rec"><%= post.to %></div></td>
+    </tr>
+    <% }); %>
+  </table>
+
+
+  </body>
+</html>

@@ -1,0 +1,48 @@
+.pic{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+body{
+  background-color: #393E46;
+  text-align: center;
+}
+label{
+  color: #4ECCA3;
+  font-size: 20px;
+  font-weight: bold;
+}
+.details{
+  padding-top: 16px;
+  text-align: right;
+  margin-right: 35%;
+}
+.top{
+  padding-top: 12%;
+  text-align: right;
+  margin-right: 35%;
+}
+.pay{
+  margin-top: 28px;
+  text-align: center;
+}
+.rec{
+  font-size: 24px;
+  color: silver;
+  font-weight: bold;
+}
+.head{
+  color:lime;
+  font-weight: bold;
+  padding-bottom:10px;
+  padding-top:20px;
+  font-size:24px;
+  padding-right: 10%;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+  font-size: 19px;
+  color: #4ECCA3;
+}
